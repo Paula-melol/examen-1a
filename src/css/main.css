@@ -19,10 +19,12 @@ video {
   justify-content: center;
   align-items: flex-start;
   gap: 50px;
+  background-color: white;
 }
 
 .wrapper1,
-.wrapper2 {
+.wrapper2,
+.wrapper3 {
   background: #8ecae6;
 }
 
@@ -58,13 +60,37 @@ video {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  width: 1728px;
   align-items: flex-end;
 }
 
-.un,
+.wrapper2 .un,
 .deux,
 .trois {
   width: 416px;
+  height: 130px;
+  flex-shrink: 0;
+  border: 1px solid #146c81;
+  background: #219ebc;
+  color: #fff;
+  font-family: Heebo;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 100% */
+}
+.wrapper3 {
+  width: 1728px;
+  height: 230px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.b1,
+.b2,
+.b3,
+.b4 {
+  width: 239px;
   height: 130px;
   flex-shrink: 0;
   border: 1px solid #146c81;
